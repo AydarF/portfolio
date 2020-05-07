@@ -1,6 +1,6 @@
 require(`dotenv`).config({
   path: `.env`,
-})
+});
 
 module.exports = {
   siteMetadata: {
@@ -21,7 +21,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Aydar Fayzullin`,
-        description: `My portfolio site`,
+        description: `Portfolio site`,
         start_url: `/`,
         background_color: `#141821`,
         theme_color: `#f6ad55`,
@@ -43,4 +43,4 @@ module.exports = {
     `gatsby-plugin-offline`,
     `gatsby-plugin-netlify`,
   ],
-}
+};
